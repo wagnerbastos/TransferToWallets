@@ -17,9 +17,11 @@ while True:
     if bank_account == 'y':
         print("\nThe system will conduct a search for a bank account registered under the previously provided name, with a verified address in the city of New York.")
         sleep(2)
-        print("\nAccount located. Transfer process will commence shortly.")
+        print("\nAccount located.")
         sleep(2)
         print("\nYou are eligible to claim a portion of the Dark Army's funds.")
+        sleep(2)
+        print("\nTransfer process will commence shortly.")
         sleep(2)
         print("\nYou will be awarded a random amount ranging from $0 to $24,000,000.00.")
         sleep(2)
