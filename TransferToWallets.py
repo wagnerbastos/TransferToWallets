@@ -51,3 +51,4 @@ while True:
 
 print("DISCLAIMER:\n")
 print("This is a work of fiction. Any names or characters, businesses or places, events or incidents, are fictitious.\nAny resemblance to actual persons, living or dead, or actual events, is purely coincidental.")
+print("\nNo animals were harmed during the making of this program.")
