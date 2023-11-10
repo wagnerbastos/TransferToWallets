@@ -9,7 +9,7 @@ locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')
 
 print("Starting program...")
 sleep(3)
-print("\nDistribute the Dark Army's funds among all individuals with bank accounts in NYC.")
+print("\nDistribute the Dark Army's funds among all claiming individuals with bank accounts in NYC.")
 sleep(2)
 print(f"The distribution will be available for the next 15 minutes, starting {formatted_datetime}.")
 sleep(2)
@@ -51,7 +51,7 @@ while True:
         sleep(2)
         print("\nTransfer process will commence shortly.")
         sleep(2)
-        print("\nYou will be awarded a random amount ranging from $0 to $24,000,000.00.")
+        print("\nYou will be awarded a random amount ranging from $10.00 to $24,000,000.00.")
         sleep(2)
         print("\nStarting transference...")
         sleep(2)
@@ -63,7 +63,7 @@ while True:
             sleep(1)
         print("Transference has been successfully completed!")        
         
-        random_value = random.uniform(1, 24_000_000)
+        random_value = random.uniform(10, 24_000_000)
         formatted_value = locale.format_string('%d', random_value, grouping=True)
         decimal_part = "%.2f" % (random_value % 1)
         total_value = formatted_value + decimal_part[1:]
