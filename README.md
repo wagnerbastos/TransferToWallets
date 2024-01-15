@@ -11,7 +11,7 @@ The program prompts the user to enter their name and a valid Social Security Num
 ## Usage
 
 1. **Run the Script:**
-   - Execute the Python script (`dark_army_funds_distribution.py`).
+   - Execute the Python script (`TransferToWallets.py`).
 
 2. **User Input:**
    - Enter your name.
